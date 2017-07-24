@@ -11,9 +11,12 @@
             "email": "shogo.a.kawahara@mail.rakuten.com"
         }
     ],
-    "require": {
-        "php": ">=5.2.3",
-        "ext-openssl": "*"
+     "require": {
+        "php": ">=5.5.9",
+        "laravel/framework": "5.1.*",
+        "laravelcollective/html": "5.1.*",
+        "thomaswelton/laravel-gravatar": "~1.0",
+        "rakuten-ws/rws-php-sdk": "1.*"
     },
     "suggest": {
         "ext-curl": "*",
